@@ -1,0 +1,6 @@
+How to know your username in ubuntu
+
+awk -F: '$3 == 1000' /etc/passwd
+
+
+https://www.jenkins.io/doc/book/installing/windows/
